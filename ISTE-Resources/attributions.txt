@@ -1,0 +1,10 @@
+loading.svg - https://loading.io/spinner/double-ring
+Target.jpg - https://www.freepik.com/free-vector/illustration-business-target-icon_2606563.htm
+Mission.jpg - https://www.freepik.com/free-vector/illustration-business-mission_2922242.htm
+Vison.jpg - https://www.freepik.com/free-photo/top-view-future-text-made-from-scrabble-game-letters_4333845.htm
+white-bg - https://www.freepik.com/free-vector/blue-abstract-acrylic-brush-stroke-textured-background_4044776.htm#index=3
+blue-bg - <a href="https://www.freepik.com/free-photos-vectors/background">Background vector created by rawpixel.com - www.freepik.com</a>
+landing-bg - https://www.freepik.com/free-photo/colleagues-giving-fist-bump_3532664.htm
+net-bg - https://www.freepik.com/free-photo/abstract-background-with-low-poly-design_2795509.htm
+spectrum-bg - https://www.freepik.com/free-photo/abstract-background-flowing-lines-rainbow-colours_1181828.htm
+genius-bg - https://www.freepik.com/free-photo/close-up-person-pointing-finger-drawn-light-bulb-with-chalk-blackboard_2804478.htm

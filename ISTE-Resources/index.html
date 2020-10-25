@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <!-- Author: Anish Sharma -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <title>ISTE NITC STUDENTS' CHAPTER</title>
+  </head>
+  <body>
+    <form method="get" action="brochure.pdf">
+      <button type="submit" onmouseover="stop_bounce()" class="brochure"><i class="fas fa-book"></i></button>
+    </form>
+    <div class="nav">
+      <h1>ISTE NITC STUDENTS' CHAPTER</h1>
+      <h2>ISTE NITC</h2>
+      <div class="desktop-menu">
+        <a href="#events" class="border-right-blue">Events</a>
+        <a href="#about" class="border-right-blue">About</a>
+        <a href="#team" class="border-right-blue">Our Team</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <div id="mobilemenu" class="mobile-menu">
+        <a href="#events">Events</a>
+        <a href="#about">About</a>
+        <a href="#team">Our Team</a>
+        <a href="#contact">Contact Us</a>
+      </div>
+      <a class="menu-btn" href="javascript:void(0);" onclick="toggle('mobilemenu')"><i class="fas fa-bars"></i></a>
+    </div>
+
+    <section id="landing" class="landing">
+      <img src="images/istewhite.png">
+      <div class="heading">ISTE NITC STUDENTS' CHAPTER</div>
+      <div class="row">
+        <a href="#about">About Us</a>
+        <a href="#events">Events</a>
+        <a href="#team">Our Team</a>
+      </div>
+      <a href="#about" id="#landing-arrow" class="down"><i class="fas fa-chevron-down"></i></a>
+    </section>
+
+    <section id="about" class="about">
+      <h1>About ISTE</h1>
+      <div class="quote">
+      The Indian Society for Technical Education (ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System.
+      </div>
+
+      <div class="left wow fadeInLeft">
+        <div class="image-card">
+          <img src="images/mission.jpg">
+        </div>
+        <div class="container">
+          <h2>Our Mission</h2>
+          ISTE inspires educators worldwide to use technology to innovate teaching and learning, accelerate good practice and solve tough problems in education by providing community, knowledge and the ISTE Standards, a framework for rethinking education and empowering learners.
+        </div>
+      </div>
+      <div class="right wow fadeInRight" style="text-align: left;">
+        <div class="image-card">
+          <img src="images/vision.jpg">
+        </div>
+        <div class="container">
+          <h2>Our Vision</h2>
+          ISTE’s vision is that all educators are empowered to harness technology to accelerate innovation in teaching and learning, and inspire learners to reach their greatest potential.
+        </div>
+      </div>
+    </section>
+
+    <section class="event-section blue-bg">
+      <img src="images/atreya-title.png" class="title-image wow fadeInRight">
+      <div class="row wow fadeInLeft">
+        <img src="images/events/atreya.jpeg">
+        <p class="atreya">
+          A blend of events, workshops and lectures is what formed the groundbreaking 17th convention, Atreya'19 which was conducted by ISTE NITC Students' chapter. It witnessed a huge footfall of more than 2.5k people coming together from all over the state. The programme commenced with an inaugural ceremony on 9th February, the chief guest being C R Thomas, the Deputy director of VSSC, a research center of the ISRO. Lectures of eminent personalities were held and a large variety of workshops were conducted. An array of vents like CSI, Dream Codex, Admania to name a few, were present. The convention also consisted of a performance of the band Second Class Citizens. Atreya'19 concluded on a successful note.
+        </p>
+      </div>
+    </section>
+
+    <section class="event-section spectrum-bg">
+      <img src="images/spectrum-title.png" class="title-image wow fadeInLeft">
+      <div class="row wow fadeInRight" style="flex-direction: row-reverse;">
+        <img src="images/events/spectrum.jpg">
+        <p class="spectrum">
+          Spreading knowledge and awareness through technical events is a cherished goal of  ISTE. Keeping this in mind, annually, School Spectrum is conducted with enlightening and fun events that test various skills of students. There are numerous activities to please any palate. Students are given an opportunity to put forth their oratory skills through events such as Beat The Talk, acting skills through Tech Charades, analytical skills through CSI, or marketing abilities through Admania. The Spectrum is the pride of the ISTE as it allows the club to reach out to the students and put up activities that not only allows them to show their expertise but also to help them realize their capability and nurture it.
+        </p>
+      </div>
+    </section>
+
+    <section class="event-section genius-bg">
+      <img src="images/jeenius-title.png" class="title-image wow fadeInRight">
+      <div class="row wow fadeInLeft">
+        <img src="images/events/jeenius.jpg">
+        <p class="jeenius">
+          "Education means igniting the lamp. Not just filling the buckets."
+   The IIT colleges in India are the dream of every aspiring Indian engineer and scientist. Planning, preparation and practice are the main themes by which students shall be nurtured and are made to focus on the goal. So presenting you JEEnius to help boost the last leg of preparation of the students and set to ease their load. A systematic and purposeful selection of questions from fundamental to analytical skills, aptitude, comprehension, alertness, approach in various aspects of the subject and time management. Well-planned and well coordinated effort with clear understanding of the basic concepts and persistent practice help make the learner confident in subjects and competent in succeeding. Every student shall try and achieve, the much needed things are : dream, goal setting, plan, effort and above all passion. Hoping the best for you!!!
+        </p>
+      </div>
+    </section>
+
+    <section id="events" class="events">
+      <h1 style="font-size: 32px;">Events</h1>
+      <div class="event" style="background-image: url('images/events/quiz-spectrum.jpg');">
+        <div class="brief  wow fadeOut" onclick="show('spectrum')">
+          Spectrum Quiz
+        </div>
+        <div id="spectrum" class="details-container">
+          <div class="pop-up">
+            <button class="cross" onclick="hide('spectrum')">&times;</button>
+            <h1>Spectrum Quiz</h1>
+            <div class="row">
+            <img src="images/events/quiz-spectrum.jpg">
+            <p>
+            Here’s your perfect opportunity to prove your wits on a grand stage. Participate in the Spectrum Quiz to showcase the depth of your knowledge in Science and Technology. For all the Quizzing prodigies out there, tighten up for some enthralling experience and awe-inspiring competition in the most creative way.
+            <br>Freshen up your brain,
+            <br>Absorb all the knowledge,
+            <br>And Pour it out in the Spectrum Quiz.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event" style="background-image: url('images/events/beat-the-talk.jpg');">
+        <div class="brief  wow fadeOut" onclick="show('beattalk')">
+          Beat The Talk
+        </div>
+        <div id="beattalk" class="details-container">
+          <div class="pop-up">
+            <button class="cross" onclick="hide('beattalk')">&times;</button>
+            <h1>Beat The Talk</h1>
+            <div class="row">
+            <img src="images/events/beat-the-talk.jpg">
+            <p>
+            For good ideas and true innovation, you need human interaction, conflict, argument, debate. It's better to debate a question without settling it than to settle a question without debating. So for all the orators out there who believe that words can greatly impact the world, we present to you a platform where every word matters and every second counts. In order to beat others here you will have to BEAT THE TALK.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event" style="background-image: url('images/events/csi.jpg');">
+        <div class="brief  wow fadeOut" onclick="show('csi')">
+          Crime Scene Investigation
+        </div>
+        <div id="csi" class="details-container">
+          <div class="pop-up">
+            <button class="cross" onclick="hide('csi')">&times;</button>
+            <h1>Crime Scene Investigation</h1>
+            <div class="row">
+            <img src="images/events/csi.jpg">
+            <p>
+            To the next Sherlock Holmes,
+            <br>Have you got what it takes to solve a murder? Are you ready to analyse every detail and deduce every last possibility? Your reason and logic will be your sole companions. Armed with only your mind, can you find the answers to the mystery? Well then, CSI is the event for you. Give it all you got Sherlock.
+            <br><br>Your “friend"
+            <br>Moriarty
+            <br>J.M.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event" style="background-image: url('images/events/dream-codex.jpg');">
+        <div class="brief wow fadeOut" onclick="show('codex')">
+          Dream Codex
+        </div>
+        <div id="codex" class="details-container">
+          <div class="pop-up">
+            <button class="cross" onclick="hide('codex')">&times;</button>
+            <h1>Dream Codex</h1>
+            <div class="row">
+            <img src="images/events/dream-codex.jpg">
+            <p>
+            In this event, participants have to crack the codes and program their way through the questions. Speed and accuracy is what it takes to ace this race!
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event" style="background-image: url('images/events/admania.jpg');">
+        <div class="brief  wow fadeOut" onclick="show('admania')">
+          Admania
+        </div>
+        <div id="admania" class="details-container">
+          <div class="pop-up">
+            <button class="cross" onclick="hide('admania')">&times;</button>
+            <h1>Admania</h1>
+            <div class="row">
+            <img src="images/events/admania.jpg">
+            <p>
+              Want to be the next big thing in the world of trade? Is advertising and selling your forte? If so ISTE presents to you Admaina. An event for all the budding marketing brains. So gather up all your knowledge and prepare for a truly memorable experience.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event" style="background-image: url('images/events/epistemi.jpg');">
+        <div class="brief  wow fadeOut" onclick="show('epistemi')">
+          Epistemi
+        </div>
+        <div id="epistemi" class="details-container">
+          <div class="pop-up">
+            <button class="cross" onclick="hide('epistemi')">&times;</button>
+            <h1>Epistemi</h1>
+            <div class="row">
+            <img src="images/events/epistemi.jpg">
+            <p>
+            Don't miss the opportunity to assess your intelligence through this enthralling quiz.If you have a nice clutch in Mathematics and Science , it's the time to showcase your knowledge.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event" style="background-image: url('images/events/tech-tale.jpg');">
+        <div class="brief  wow fadeOut" onclick="show('techtales')">
+          Tech-Tales & Tech Charades
+        </div>
+        <div id="techtales" class="details-container">
+          <div class="pop-up">
+            <button class="cross" onclick="hide('techtales')">&times;</button>
+            <h1>Tech-Tales & Tech Charades</h1>
+            <div class="row">
+            <img src="images/events/tech-tale.jpg">
+            <p>
+            Actions speak louder than words .For all those who are passionate about expressing themselves through actions and those good at guessing things from the clues provided, ISTE NITC student chapter brings you TECHCHARDES. This event aims at using technical jargon in the popular, amusing game of charades and thus enhancing the technical awareness while having a lot of fun. So tighten your seat belts and brush up your acting skills for being the part of a competition like no other.
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event" style="background-image: url('images/events/craftstix.jpg');">
+        <div class="brief  wow fadeOut" onclick="show('craftstix')">
+          Craftstix
+        </div>
+        <div id="craftstix" class="details-container">
+          <div class="pop-up">
+            <button class="cross" onclick="hide('craftstix')">&times;</button>
+            <h1>Craftstix</h1>
+            <div class="row">
+            <img src="images/events/craftstix.jpg">
+            <p>
+            You think you are creative? Beat the challenge to bring out creative ideas using just “ MATCHSTICKS “. Buckle up and be ready to compete in the event “ CRAFTSTIX “. It’s a great chance to show off your brain power and ingenuity to spread social awareness. Take up the challenge, display your confidence and showcase your talent to mesmerize the crowd.
+            <br>“ Make use of  your TALENT,
+            <br>Make use of CRAFTSTIX “
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="event" style="background-image: url('images/events/paper-planes.jpg');">
+        <div class="brief  wow fadeOut" onclick="show('paperplanes')">
+          Paper Planes
+        </div>
+        <div id="paperplanes" class="details-container">
+          <div class="pop-up">
+            <button class="cross" onclick="hide('paperplanes')">&times;</button>
+            <h1>Paper Planes</h1>
+            <div class="row">
+            <img src="images/events/paper-planes.jpg">
+            <p>
+            Remember the paper planes you made as a kid? Put that skill to good use here! Three rounds, testing the different aptitudes of your aeroplane. Points are also given for the most creative designs. May the best aeroplane fly the highest!
+            </p>
+          </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="team" class="team">
+      <h1>Team</h1>
+
+      <button class="right-button" onclick="shiftSlideForward()">&#10095;</button>
+      <button class="left-button" onclick="shiftSlideBackward()">&#10094;</button>
+
+      <div class="row" name="row1" style="display: flex;" id="teamrow">
+        <div class="image-card">
+          <img src="images/team/faculty.jpg">
+          <div class="brief">Faculty Incharge</div>
+          <div class="caption">Dr.Sujith A</div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/team/sec-jayanth.jpg">
+          <div class="layover"><a href="https://instagram.com/jayanth_j737?utm_source=ig_profile_share&igshid=9w8ie4saih2g" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Secretary</div>
+          <div class="caption">Jayanth</div>
+        </div>
+      </div>
+
+      <div class="row" name="row1" id="teamrow">
+        <div class="image-card">
+          <img src="images/team/jointsec-mugesh.jpg">
+          <div class="layover"><a href="https://instagram.com/mushi__boy?igshid=1csjgon2wp6vm" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Joint Secretary</div>
+          <div class="caption">Mugesh</div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/team/jointsec-yashaswini.jpg">
+          <div class="layover"><a href="https://instagram.com/yashaswini.reddyy?igshid=ftazof25mlxg" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Joint Secretary</div>
+          <div class="caption">Yashaswini</div>
+        </div>
+      </div>
+
+
+      <div class="row" name="row1" id="teamrow">
+        <div class="image-card">
+          <img src="images/team/treasurer-ayush.jpg">
+          <div class="layover"><a href="https://instagram.com/varshn_ayush?igshid=1dxtochf28hso" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Treasurer</div>
+          <div class="caption">Ayush</div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/team/treasurer-sailesh.jpg">
+          <div class="layover"><a href="https://instagram.com/sailesh_nadendla?igshid=othfxivrn9gv" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Treasurer</div>
+          <div class="caption">Sailesh</div>
+        </div>
+      </div>
+
+      <div class="row" name="row1" id="teamrow">
+        <div class="image-card">
+          <img src="images/team/eventco-vivek.jpg">
+          <div class="layover"><a href="https://www.instagram.com/vickyvivek7777/" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Event Co-ordinator</div>
+          <div class="caption">Vivek</div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/team/eventco-anu.jpg">
+          <div class="layover"><a href="https://instagram.com/anu._.joseph?igshid=18oxblfr3uorm" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Event Co-ordinator</div>
+          <div class="caption">Anu Joseph</div>
+        </div>
+      </div>
+
+      <div class="row" name="row1" id="teamrow">
+        <div class="image-card">
+          <img src="images/team/designer-edwin.jpg">
+          <div class="layover"><a href="https://instagram.com/edvinbasil?igshid=11yqfq7t7c0j6" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Designer</div>
+          <div class="caption">Edvin</div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/team/webdesign-mehil.jpg">
+          <div class="layover"><a href="https://instagram.com/meh._.il?igshid=s6wf6r7bt6oe" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Web Design</div>
+          <div class="caption">Mehil</div>
+        </div>
+      </div>
+
+      <div class="row" name="row1" id="teamrow">
+        <div class="image-card">
+          <img src="images/team/creativehead-jahnvi.jpg">
+          <div class="layover"><a href="https://www.instagram.com/stardust_oblivion/" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Creative Head</div>
+          <div class="caption">Jahnvi</div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/team/creativehead-aditi.jpg">
+          <div class="layover"><a href="https://instagram.com/aditi_tamse?igshid=kf8node80cs3" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Creative Head</div>
+          <div class="caption">Aditi</div>
+        </div>
+      </div>
+
+      <div class="row" name="row1" id="teamrow">
+        <div class="image-card">
+          <img src="images/team/marketing-jk.jpg">
+          <div class="layover"><a href="https://instagram.com/im_jk7?igshid=1i9dhyoyn40gl" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Marketing</div>
+          <div class="caption">Jayakrishna</div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/team/marketing-nandu.jpg">
+          <div class="layover"><a href="https://instagram.com/nandu_gagarin?igshid=12ods5t73i9i" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">Marketing</div>
+          <div class="caption">Nandu</div>
+        </div>
+      </div>
+
+      <div class="row" name="row1" id="teamrow">
+        <div class="image-card">
+          <img src="images/team/eah-johan.jpg">
+          <div class="layover"><a href="https://instagram.com/johan_jjc?igshid=1vkur7ygijsx3" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">External Affairs</div>
+          <div class="caption">Johan</div>
+        </div>
+
+        <div class="image-card">
+          <img src="images/team/eah-divisha.jpg">
+          <div class="layover"><a href="https://instagram.com/divisha.singh.18?igshid=1jm1cac0ecksp" class="social"><i class="fab fa-instagram"></i></a></div>
+          <div class="brief">External Affairs</div>
+          <div class="caption">Divisha</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h1>Contact</h1>
+      <div class="row">
+        <div class="col border-right wow fadeInDown">
+          <i class="fas fa-map-marker-alt"></i>
+          <h2>ADDRESS</h2>
+          <div>
+            National Institute Of Technology, Calicut, Kattangal, Kerala 673601
+          </div>
+        </div>
+        <div class="col border-right wow fadeInDown">
+          <i class="fas fa-phone"></i>
+          <h2>PHONE</h2>
+          <div>
+              Jayanth : +91 99611 33071
+          </div>
+          <div>
+              Balabhaskar : +91 89437 08295
+          </div>
+        </div>
+        <div class="col wow fadeInDown">
+          <i class="far fa-envelope"></i>
+          <h2>EMAIL</h2>
+          <div>
+            iste-nitc@nitc.ac.in
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <footer>
+      <div class="col">
+        <img src = "images/istewhite.png">
+        <div class="details">
+          The Indian Society for Technical Education is a national, professional, non-profit Society registered under the Societies Registration Act of 1860.
+        </div>
+      </div>
+      <div class="col">
+        <h2>Contact Us</h2>
+        National Institute Of Technology, Calicut<br>
+        Kattangal, Kozikode<br>
+        Kerala 673601<br>
+        Phone:+91-99611-33071, +91-89437-08295<br>
+        Email: iste-nitc@nitc.ac.in<br>
+        <div class="row">
+          <a href="https://www.facebook.com/istenitc/" class="social"><i class="fab fa-facebook-f"></i></a>
+          <a href="https://www.instagram.com/newtonsapple/?utm_source=ig_profile_share&igshid=1ok5vety4361" class="social"><i class="fab fa-instagram"></i></a>
+          <a href="https://in.linkedin.com/company/istenitc" class="social"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+      <div class="copyright">
+        &copy; 2019 | ISTE NITC
+      </div>
+    </footer>
+  </body>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="js/wow.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+  <script>
+    $(document).ready(function(){
+    $(this).scrollTop(0);
+
+    // Set the inerval for slide change
+    setInterval(nextSlide, 7000, "row1");
+
+    // Add smooth scrolling to all links
+    $("a").on('click', function(event) {
+     // Make sure this.hash has a value before overriding default behavior
+     if (this.hash !== "") {
+       // Prevent default anchor click behavior
+       event.preventDefault();
+       hide('mobilemenu');
+       // Store hash
+       var hash = this.hash;
+
+       // Using jQuery's animate() method to add smooth page scroll
+       // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+       $('html, body').animate({
+         scrollTop: $(hash).offset().top
+       }, 500, function(){
+
+         // Add hash (#) to URL when done scrolling (default click behavior)
+         window.location.hash = hash;
+       });
+     } // End if
+    });
+    });
+
+    function show(id){
+      document.getElementById(id).style.display = "flex";
+    }
+
+    function stop_bounce(){
+      document.getElementsByClassName("brochure")[0].classList.add("no-animation");
+    }
+
+    function hide(id){
+      elem = document.getElementById(id);
+      elem.style.display = "none";
+    }
+
+    function toggle(id){
+      elem = document.getElementById(id);
+      if(getComputedStyle(elem, null).display === "none"){
+        elem.style.display = "flex";
+      }
+      else if(getComputedStyle(elem, null).display === "flex"){
+        elem.style.display = "none";
+      }
+    }
+
+    function shiftSlideForward(){
+      nextSlide("row1");
+    }
+
+    function shiftSlideBackward(){
+      prevSlide("row1");
+    }
+
+    function nextSlide(name){
+      rows = document.getElementsByName(name);
+      noOfRows = rows.length;
+      currIndex = 0;
+
+      for(i=0;i<noOfRows;i++){
+        if(rows[i].style.display === "flex"){
+          currIndex = i;
+        }
+      }
+      rows[currIndex].style.display = "none";
+
+      currIndex++;
+      if(currIndex>=noOfRows){
+        currIndex = 0;
+      }
+
+      rows[currIndex].style.display = "flex";
+    }
+
+    function prevSlide(name){
+      rows = document.getElementsByName(name);
+      noOfRows = rows.length;
+      currIndex = 0;
+
+      for(i=0;i<noOfRows;i++){
+        if(rows[i].style.display === "flex"){
+          currIndex = i;
+        }
+      }
+      rows[currIndex].style.display = "none";
+
+      currIndex--;
+      if(currIndex<0){
+        currIndex = noOfRows - 1;
+      }
+
+      rows[currIndex].style.display = "flex";
+    }
+
+    function hideElement(index, name){
+      rows = document.getElementsByName(name);
+      rows[index].style.display = "none";
+    }
+
+    $(window).scroll(function(){
+      if(window.scrollY >= 300){
+        document.getElementsByClassName('nav')[0].style.display = "flex";
+        document.getElementById("#landing-arrow").style.display = "none";
+      }
+      else{
+        document.getElementsByClassName('nav')[0].style.display = "none";
+      }
+    });
+  </script>
+</html>
